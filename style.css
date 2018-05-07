@@ -1,0 +1,56 @@
+body {
+
+}
+
+.wrapper {
+	position: absolute;
+	width: 27%;
+}
+
+path {
+	stroke: #fff;
+	fill: #fff;
+	stroke-dasharray: 800;
+	opacity: 10;
+	animation: logo 8s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes logo {
+	0% {
+		opacity: 0;
+		fill: none;
+		stroke-dashoffset: 800;
+	}
+	15% {
+		opacity: 10;
+		fill: none;
+		stroke-dashoffset: 600;
+	}
+	30% {
+		fill: rgba(0, 0, 0, 0);
+	}
+	40% {
+		fill: rgba(0, 0, 0, 1);
+	}
+	50% {
+		opacity: 10;
+		stroke-dashoffset: 0;
+	}
+	60% {
+		fill: rgba(0, 0, 0, 1);
+	}
+	70% {
+		fill: rgba(0, 0, 0, 0);
+	}
+	85% {
+		opacity: 10;
+		fill: none;
+		stroke-dashoffset: 600;
+	}
+	100% {
+		opacity: 0;
+		fill: none;
+		stroke-dashoffset: 800;
+	}
+}
