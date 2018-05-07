@@ -40,8 +40,19 @@ progress, progress[role] {
   width: 80%;
 }
 
+.footer {
+	display: block;
+	margin: 40px 40px 40px 40px;
+}
+
+.footer p {
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
 .interests {
-	padding: 0 0 20px 20px;
+	padding: 0 20px 20px 20px;
 }
 
 .skill::-webkit-progress-value {
@@ -54,15 +65,23 @@ progress, progress[role] {
 
 .timeline {
 	margin: 20px;
-	padding: 20px;
+	padding: 1px 20px;
 	border-left: 2px solid black;
+}
+
+.timeline h4 {
+	padding: 17px 17px 0px 17px;
+}
+
+.timeline p {
+	padding: 0px 17px 17px 17px;
 }
 
 .timeline li {
 	margin-bottom: 20px;
 	background-color: #cfd8dc;
 	border-radius: 6px;
-	box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08)
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.12), 0 4.5px 4.5px rgba(0, 0, 0, 0.08)
 }
 
 .wrapper-logo {
@@ -72,18 +91,22 @@ progress, progress[role] {
 }
 
 .content {
+	position: relative;
 	display: block;
 	width: 100%;
 	height: 100%;
+	overflow: auto;
 }
 
 .wrapper-main {
+	position: relative;
 	display: block;
 	float: left;
 	width: 65%
 }
 
 .wrapper-side {
+	position: relative;
 	display: block;
 	background-color: #263238;
 	color: white;
