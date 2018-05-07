@@ -138,7 +138,6 @@ progress, progress[role] {
 	display: block;
 	background-color: #263238;
 	color: white;
-	height: 100%;
 	float: right;
 	width: 35%;
 }
@@ -212,4 +211,36 @@ path {
 		display: block;
 		width: 100%;
 	}
+}
+
+
+@keyframes delayed-fade-in {
+	0% { opacity: 0 }
+	66% { opacity: 0 }
+	100% { opacity: 1; }
+}
+
+@keyframes fade-in {
+	0% { opacity: 0 }
+	100% { opacity: 1; }
+}
+
+.social-wrapper {
+	animation: fade-in 1s ease-in;
+}
+
+.interests-wrapper {
+	animation: fade-in 1s ease-in;
+}
+
+.skills-wrapper {
+	animation: delayed-fade-in 2s ease-in;
+}
+
+.timeline-wrapper {
+	animation: delayed-fade-in 2s ease-in;
+}
+
+.footer {
+	animation: delayed-fade-in 3s ease-in;
 }
