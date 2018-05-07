@@ -40,6 +40,10 @@ progress, progress[role] {
   width: 80%;
 }
 
+.interests {
+	padding: 0 0 20px 20px;
+}
+
 .skill::-webkit-progress-value {
   background: #81c784;
 }
