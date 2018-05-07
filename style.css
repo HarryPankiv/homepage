@@ -18,10 +18,30 @@ li {
 }
 
 a:hover {
-	border-bottom: 1px solid black;
+	color: #00695c;
 }
 
-img {
+.social img {
+	display: inline-block;
+	position: relative;
+    vertical-align: middle;
+	width: 30px;
+	height: 30px;
+}
+
+.social {
+	height: 100%;
+    vertical-align: middle;
+    display: block;
+}
+.social a {
+	height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.profile {
 	display: block;
 	width: 300px;
 	height: 300px;
