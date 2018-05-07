@@ -34,8 +34,16 @@ a:hover {
     vertical-align: middle;
     display: block;
 }
+
+.social > div {
+	height: 100%;
+	padding-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
 .social a {
 	height: 100%;
+	padding-left: 10px;
     vertical-align: middle;
     display: inline-block;
 }
